@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Creating a class base model"""
+"""This file contains the BaseModel class"""
 import uuid
 from datetime import datetime
 import models

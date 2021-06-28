@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Comment goes here!"""
+"""This file contains the Filestorage class"""
 
 from models.base_model import BaseModel
 import json
