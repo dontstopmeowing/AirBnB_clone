@@ -40,3 +40,10 @@ class Filestorage:
 
         except:
             pass
+
+    def find_object(cls, id):
+        """ Return object id """
+        objs = cls.__objects
+        for obj in objs.values():
+            if obj.id == id:
+                return obj
