@@ -3,25 +3,32 @@
 import uuid
 from datetime import datetime
 import models
+format = "%Y-%m-%dT%H:%M:%S.%f"
 
 
 class BaseModel:
     """Base model class"""
 
     def __init__(self, *args, **kwargs):
-        """Initialization of the base model"""
-
+        """Initialization of the base model class"""
         if kwargs:
-            self.__dict__ = kwargs
-            if "created_at" in kwargs:
-                self.created_at = self.__dict__["created_at"] = datetime.now()
-            if "updated_at" in kwargs:
-                self.updated_at = self.__dict__["updated_at"] = datetime.now()
+
+            for key, value in kwargs.items():
+                if key != "__class__":
+                    setattr(self, key, value)
+
+            if hasattr(self, "created_at") and type(self.created_at) is str:
+                self.created_at = datetime.strptime(
+                    kwargs["created_at"], format)
+            if hasattr(self, "updated_at") and type(self.updated_at) is str:
+                self.updated_at = datetime.strptime(
+                    kwargs["updated_at"], format)
         else:
             self.id = str(uuid.uuid4())
             self.created_at = datetime.now()
             self.updated_at = self.created_at
             models.storage.new(self)
+            models.storage.save()
 
     def __str__(self):
         """String representation of the class itself."""
@@ -35,8 +42,10 @@ class BaseModel:
 
     def to_dict(self):
         """Returns a new dic with the class values."""
-        self.__dict__["__clas__"] = __class__.__name__
-        self.__dict__["created_at"] = self.created_at.isoformat()
-        self.__dict__["updated_at"] = self.updated_at.isoformat()
-
-        return self.__dict__
+        dictionary = self.__dict__.copy()
+        if "created_at" in dictionary:
+            dictionary["created_at"] = dictionary["created_at"].strftime(time)
+        if "updated_at" in dictionary:
+            dictionary["updated_at"] = dictionary["updated_at"].strftime(time)
+        dictionary["__class__"] = self.__class__.__name__
+        return dictionary
