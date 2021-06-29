@@ -44,8 +44,10 @@ class BaseModel:
         """Returns a new dic with the class values."""
         dictionary = self.__dict__.copy()
         if "created_at" in dictionary:
-            dictionary["created_at"] = dictionary["created_at"].strftime(time)
+            dictionary["created_at"] = dictionary["created_at"].strftime(
+                format)
         if "updated_at" in dictionary:
-            dictionary["updated_at"] = dictionary["updated_at"].strftime(time)
+            dictionary["updated_at"] = dictionary["updated_at"].strftime(
+                format)
         dictionary["__class__"] = self.__class__.__name__
         return dictionary
