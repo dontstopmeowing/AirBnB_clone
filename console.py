@@ -3,6 +3,7 @@
 
 import models
 import cmd
+import shlex
 from models.base_model import BaseModel
 from models.user import User
 classes = {
@@ -58,7 +59,14 @@ class HBNBCommand(cmd.Cmd):
         args = args.split()
         if len(args) == 0:
             print("** class name missing **")
-        if args[0] in classes:
+            return
+        if args[0] not in classes:
+            print("** class doesn't exist **")
+            return
+        if len(args) < 2:
+            print("** instance id missing **")
+            return
+        else:
             if len(args) > 1:
                 key = args[0] + "." + args[1]
                 if key in models.storage.all():
@@ -67,8 +75,6 @@ class HBNBCommand(cmd.Cmd):
                     print("** no instance found **")
             else:
                 print("** instance id missing **")
-        else:
-            print("** class doesn't exist **")
 
     def do_destroy(self, args):
         """Deletes an instance based on the class name and id."""
@@ -119,21 +125,27 @@ class HBNBCommand(cmd.Cmd):
             id by adding or updating attribute.
         """
 
-        args = args.split()
+        args = shlex.split(args)
         if len(args) == 0:
             print("** class name missing **")
-        if args[0] in classes:
-            if len(args) > 1:
-                obj = models.storage.find_object(args[1])
-                if obj:
-                    setattr(obj, args[2], args[3])
-                    models.storage.save()
-                else:
-                    print("** no instance found **")
-            else:
-                print("** instance id missing **")
-        else:
+            return
+        if args[0] not in classes:
             print("** class doesn't exist **")
+            return
+        if len(args) < 2:
+            print("** instance id missing **")
+            return
+        obj = models.storage.find_object(args[1])
+        if obj:
+            if len(args) < 3:
+                print("** attribute name missing **")
+            elif len(args) < 4:
+                print("** value missing **")
+            else:
+                setattr(obj, args[2], args[3])
+                models.storage.save()
+        else:
+            print("** no instance found **")
 
 
 if __name__ == '__main__':
