@@ -2,7 +2,12 @@
 """This file contains the Filestorage class"""
 
 from models.base_model import BaseModel
+from models.user import User
 import json
+classes = {
+    "BaseModel": BaseModel,
+    "User": User
+}
 
 
 class Filestorage:
@@ -33,10 +38,10 @@ class Filestorage:
         """Deserializes the JSON file to __objects."""
         try:
             with open(self.__file_path, 'r') as file:
-                data = json.load(file)
+                f = json.load(file)
 
-            for key in data:
-                self.__objects[key] = BaseModel(**data[key])
+            for key in f:
+                self.__objects[key] = classes[f[key]["__class__"]](**f[key])
 
         except:
             pass

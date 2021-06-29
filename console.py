@@ -4,8 +4,10 @@
 import models
 import cmd
 from models.base_model import BaseModel
+from models.user import User
 classes = {
-    "BaseModel": BaseModel
+    "BaseModel": BaseModel,
+    "User": User
 }
 
 
@@ -104,8 +106,9 @@ class HBNBCommand(cmd.Cmd):
         else:
             if args[0] in classes:
                 for id_obj in dictionary.keys():
-                    obj = dictionary[id_obj]
-                    my_list.append("{}".format(obj))
+                    if args[0] in id_obj:
+                        obj = dictionary[id_obj]
+                        my_list.append("{}".format(obj))
                 print(my_list)
             else:
                 print("** class doesn't exist **")
