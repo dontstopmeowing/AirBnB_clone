@@ -11,6 +11,7 @@ classes = {
 
 
 class Filestorage:
+    """Class file storage"""
 
     __file_path = "file.json"
     __objects = {}
@@ -39,10 +40,9 @@ class Filestorage:
         try:
             with open(self.__file_path, 'r') as file:
                 f = json.load(file)
-
-            for key in f:
-                self.__objects[key] = classes[f[key]["__class__"]](**f[key])
-
+                for key in f:
+                    self.__objects[key] = classes[f[key]
+                                                  ["__class__"]](**f[key])
         except:
             pass
 
