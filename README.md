@@ -10,7 +10,7 @@
 | 📃 [Functionalities](https://github.com/dontstopmeowing/AirBnB_clone#functionalities-of-this-command-interpreter "Functionalities]") - Functionalities. 📃 |
 | 📢 [Environment](https://github.com/dontstopmeowing/AirBnB_clone#Environment- "Environment]") - Environment. 📢                                            |
 | 🐺 [File descriptor](https://github.com/dontstopmeowing/AirBnB_clone#file-descriptor- "file descriptor]") - File descriptor. 🐺                            |
-| 🐔 [Flow chart](https://github.com/dontstopmeowing/AirBnB_clone#flowchart "Flow chart]") - Flow chart. 🐔                                                  |
+| 🐔 [Flow chart](https://github.com/dontstopmeowing/AirBnB_clone#flowchart- "Flow chart]") - Flow chart. 🐔                                                 |
 | 🔨 [Installation](https://github.com/dontstopmeowing/AirBnB_clone#installation- "Installation]") - Installation. 🔨                                        |
 | ✨ [Examples](https://github.com/dontstopmeowing/AirBnB_clone#examples- "Examples]") - Examples. ✨                                                        |
 | 🐭 [Bugs](https://github.com/dontstopmeowing/AirBnB_clone#bugs- "#bugs-]") - Known bugs. 🐭                                                                |
@@ -60,6 +60,7 @@ This project was interpreted and tested on Ubuntu 20.04 LTS using python3 (versi
 # Flowchart 🐔
 
 -This is what we have achieved so far, not quite impressive (yet).
+
 <a href="https://github.com/dontstopmeowing/AirBnB_clone#flowchart"><img src="https://raw.githubusercontent.com/dontstopmeowing/AirBnB_clone/main/assets/flowcharbyDnny.png" alt="Flowchart By me!"></a>
 
 ---
