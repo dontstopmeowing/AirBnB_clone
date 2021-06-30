@@ -50,6 +50,7 @@ This project was interpreted and tested on Ubuntu 20.04 LTS using python3 (versi
 | `user.py`         | [user.py](https://github.com/dontstopmeowing/AirBnB_clone/blob/main/models/user.py "user.py]") - Class that inherites from Base Model.                                                                          |
 | `console.py`      | [console.py](https://github.com/dontstopmeowing/AirBnB_clone/blob/main/console.py "console.py]") - Contains the entry point of the command interpreter.                                                         |
 | `file.json`       | [file.json](https://github.com/dontstopmeowing/AirBnB_clone/blob/main/file.json "file.json]") - Contains all the data stored by the program.                                                                    |
+|                   |
 
 [🔼](https://github.com/dontstopmeowing/AirBnB_clone# "Back to the top") - [Back to the top](https://github.com/dontstopmeowing/AirBnB_clone# "Back to the top]") - Go back to the top. [🔼](https://github.com/dontstopmeowing/AirBnB_clone# "Back to the top")
 
