@@ -5,8 +5,8 @@
 </h1>
 
 | 🐔 ** Menu ** 🐔                                                                                                                                            |
-| ----------------------------------------------------------------------------------------------------------------------------------------------------------- | --- |
-| 🔍[Description](https://github.com/dontstopmeowing/AirBnB_clone#description- "Description]") - Description. 🔍                                              |     |
+| ----------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 🔍[Description](https://github.com/dontstopmeowing/AirBnB_clone#description- "Description]") - Description. 🔍                                              |
 | 📃 [Functionalities](https://github.com/dontstopmeowing/AirBnB_clone#functionalities-of-this-command-interpreter- "Functionalities]") - Functionalities. 📃 |
 | 📢 [Environment](https://github.com/dontstopmeowing/AirBnB_clone#Environment- "Environment]") - Environment. 📢                                             |
 | 🐺 [File descriptor](https://github.com/dontstopmeowing/AirBnB_clone#file-descriptor- "file descriptor]") - File descriptor. 🐺                             |
