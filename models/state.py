@@ -1,9 +1,9 @@
 #!/usr/bin/python3
-"""This file contains the amenity class"""
+"""This file contains the state class"""
 
 from models.base_model import BaseModel
 
 
-class Amenity(BaseModel):
+class State(BaseModel):
     """Public class attributes:"""
     name = ""

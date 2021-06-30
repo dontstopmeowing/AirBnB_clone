@@ -4,16 +4,16 @@
   <br>AirBnB_clone ✈️ <br>
 </h1>
 
-| 🐔 ** Menu ** 🐔                                                                                                                                            |
-| ----------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 🔍[Description](https://github.com/dontstopmeowing/AirBnB_clone#description- "Description]") - Description. 🔍                                              |
-| 📃 [Functionalities](https://github.com/dontstopmeowing/AirBnB_clone#functionalities-of-this-command-interpreter- "Functionalities]") - Functionalities. 📃 |
-| 📢 [Environment](https://github.com/dontstopmeowing/AirBnB_clone#Environment- "Environment]") - Environment. 📢                                             |
-| 🐺 [File descriptor](https://github.com/dontstopmeowing/AirBnB_clone#file-descriptor- "file descriptor]") - File descriptor. 🐺                             |
-| 🔨 [Installation](https://github.com/dontstopmeowing/AirBnB_clone#installation- "Installation]") - Installation. 🔨                                         |
-| ✨ [Examples](https://github.com/dontstopmeowing/AirBnB_clone#examples- "Examples]") - Examples. ✨                                                         |
-| 🐭 [Bugs](https://github.com/dontstopmeowing/AirBnB_clone#bugs- "#bugs-]") - Known bugs. 🐭                                                                 |
-|                                                                                                                                                             |
+| 🐔 ** Menu ** 🐔                                                                                                                                           |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 🔍[Description](https://github.com/dontstopmeowing/AirBnB_clone#description- "Description]") - Description. 🔍                                             |
+| 📃 [Functionalities](https://github.com/dontstopmeowing/AirBnB_clone#functionalities-of-this-command-interpreter "Functionalities]") - Functionalities. 📃 |
+| 📢 [Environment](https://github.com/dontstopmeowing/AirBnB_clone#Environment- "Environment]") - Environment. 📢                                            |
+| 🐺 [File descriptor](https://github.com/dontstopmeowing/AirBnB_clone#file-descriptor- "file descriptor]") - File descriptor. 🐺                            |
+| 🔨 [Installation](https://github.com/dontstopmeowing/AirBnB_clone#installation- "Installation]") - Installation. 🔨                                        |
+| ✨ [Examples](https://github.com/dontstopmeowing/AirBnB_clone#examples- "Examples]") - Examples. ✨                                                        |
+| 🐭 [Bugs](https://github.com/dontstopmeowing/AirBnB_clone#bugs- "#bugs-]") - Known bugs. 🐭                                                                |
+|                                                                                                                                                            |
 
 ---
 
@@ -52,7 +52,7 @@ This project was interpreted and tested on Ubuntu 20.04 LTS using python3 (versi
 | `file.json`       | [file.json](https://github.com/dontstopmeowing/AirBnB_clone/blob/main/file.json "file.json]") - Contains all the data stored by the program.                                                                    |
 |                   |
 
-[🔼](https://github.com/dontstopmeowing/AirBnB_clone# "Back to the top") - [Back to the top](https://github.com/dontstopmeowing/AirBnB_clone# "Back to the top]") - Go back to the top. [🔼](https://github.com/dontstopmeowing/AirBnB_clone# "Back to the top")
+[🔼](https://github.com/dontstopmeowing/AirBnB_clone#------airbnb_clone-%EF%B8%8F- "Back to the top") - [Back to the top](https://github.com/dontstopmeowing/AirBnB_clone#------airbnb_clone-%EF%B8%8F- "Back to the top]") - Go back to the top. [🔼](https://github.com/dontstopmeowing/AirBnB_clone#------airbnb_clone-%EF%B8%8F- "Back to the top")
 
 ---
 
@@ -160,4 +160,4 @@ echo "show BaseModel 17e3e759-2f88-4555-825c-d2a1866772f9" | ./console.py
 
 ---
 
-[🔼](https://github.com/dontstopmeowing/AirBnB_clone# "Back to the top") - [Back to the top](https://github.com/dontstopmeowing/AirBnB_clone# "Back to the top]") - Go back to the top. [🔼](https://github.com/dontstopmeowing/AirBnB_clone# "Back to the top")
+[🔼](https://github.com/dontstopmeowing/AirBnB_clone#------airbnb_clone-%EF%B8%8F- "Back to the top") - [Back to the top](https://github.com/dontstopmeowing/AirBnB_clone#------airbnb_clone-%EF%B8%8F- "Back to the top]") - Go back to the top. [🔼](https://github.com/dontstopmeowing/AirBnB_clone#------airbnb_clone-%EF%B8%8F- "Back to the top")

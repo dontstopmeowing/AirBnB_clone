@@ -1,11 +1,22 @@
 #!/usr/bin/python3
 """This file contains the Filestorage class"""
 
+from models import state
+from models.review import Review
+from models.place import Place
+from models.city import City
+from models.amenity import Amenity
 from models.base_model import BaseModel
 from models.user import User
 import json
+
 classes = {
+    "Amenity": Amenity,
     "BaseModel": BaseModel,
+    "City": City,
+    "Place": Place,
+    "Review": Review,
+    "State": state,
     "User": User
 }
 
