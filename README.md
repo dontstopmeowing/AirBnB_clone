@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-  <a href="https://github.com/dontstopmeowing/AirBnB_clone"><img src="https://i.imgur.com/8moVcJU.png" alt="Shell logo" width="200"></a>
+  <a href="https://github.com/dontstopmeowing/AirBnB_clone"><img src="https://raw.githubusercontent.com/dontstopmeowing/AirBnB_clone/main/assets/logobyDnny.png" alt="AirBnB logo By me!" width="200"></a>
   <br>AirBnB_clone ✈️ <br>
 </h1>
 
