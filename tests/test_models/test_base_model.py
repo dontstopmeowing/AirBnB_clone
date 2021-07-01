@@ -33,6 +33,12 @@ class TestBaseModel(unittest.TestCase):
         string = "[BaseModel] ({}) {}".format(inst.id, inst.__dict__)
         self.assertEqual(string, str(inst))
 
+    def test_id(self):
+        """ Tests ids """
+        first = BaseModel()
+        second = BaseModel()
+        self.assertTrue(first.id is not second.id)
+
 
 if __name__ == "__main__":
     unittest.main()

@@ -28,6 +28,12 @@ class TestBaseModel(unittest.TestCase):
         m = style.check_files(['models/engine/file_storage.py'])
         self.assertEqual(m.total_errors, 0, "fix pep8")
 
+    def test_shebang(self):
+        with open("models/engine/file_storage.py", mode='r') as _file:
+            Shebang = _file.read()
+            line = Shebang.splitlines()
+            self.assertEqual(line[0], '#!/usr/bin/python3')
+
 
 if __name__ == "__main__":
     unittest.main()
