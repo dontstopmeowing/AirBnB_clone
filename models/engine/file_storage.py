@@ -21,7 +21,7 @@ classes = {
 }
 
 
-class Filestorage:
+class FileStorage:
     """Class file storage"""
 
     __file_path = "file.json"
