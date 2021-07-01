@@ -169,9 +169,10 @@ echo "show BaseModel 17e3e759-2f88-4555-825c-d2a1866772f9" | ./console.py
 
 ---
 
-# Disclaimer 📋
+# Disclaimer & Credits 📋
 
 - All the characters you see in the images above were designed by [Oversimplified](https://www.youtube.com/user/Webzwithaz).
+- Huge thanks to [Juan Carabali](https://www.github.com/srDri/) I wouldn't have achieved this without your great help.
 
 ---
 
