@@ -165,13 +165,13 @@ echo "show BaseModel 17e3e759-2f88-4555-825c-d2a1866772f9" | ./console.py
 
 # Code Contributors 💩
 
-- Carlos Galeano [Twitter](https://twitter.com/CarlosG19285722 target="_blank") | [Email](carlos.galeano@outlook.it target="_blank")
+- Carlos Galeano [Twitter](https://twitter.com/CarlosG19285722) | [Email](carlos.galeano@outlook.it)
 
 ---
 
 # Disclaimer 📋
 
-- All the characters you see in the images above were designed by [Oversimplified](https://www.youtube.com/user/Webzwithaz target="_blank").
+- All the characters you see in the images above were designed by [Oversimplified](https://www.youtube.com/user/Webzwithaz).
 
 ---
 
