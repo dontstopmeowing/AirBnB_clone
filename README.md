@@ -169,4 +169,10 @@ echo "show BaseModel 17e3e759-2f88-4555-825c-d2a1866772f9" | ./console.py
 
 ---
 
+# Disclaimer 📋
+
+- All the characters you see in the images above were designed by [Oversimplified](https://www.youtube.com/user/Webzwithaz)
+
+---
+
 [🔼](https://github.com/dontstopmeowing/AirBnB_clone#------airbnb_clone-%EF%B8%8F- "Back to the top") - [Back to the top](https://github.com/dontstopmeowing/AirBnB_clone#------airbnb_clone-%EF%B8%8F- "Back to the top]") - Go back to the top. [🔼](https://github.com/dontstopmeowing/AirBnB_clone#------airbnb_clone-%EF%B8%8F- "Back to the top")
