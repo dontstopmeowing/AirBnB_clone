@@ -14,7 +14,7 @@ classes = {
 
 class HBNBCommand(cmd.Cmd):
     """ HBNH console """
-    prompt = '(hbnb)'
+    prompt = '(hbnb) '
 
     def do_author(self, args):
         """Program written by Carlos Galeano."""
