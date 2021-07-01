@@ -2,7 +2,7 @@
 """This file contains the Holberton console class!"""
 
 import models
-from models import state
+from models.state import State
 from models.review import Review
 from models.place import Place
 from models.city import City
@@ -19,7 +19,7 @@ classes = {
     "City": City,
     "Place": Place,
     "Review": Review,
-    "State": state,
+    "State": State,
     "User": User
 }
 
