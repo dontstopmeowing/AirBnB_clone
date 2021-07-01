@@ -2,12 +2,24 @@
 """This file contains the Holberton console class!"""
 
 import models
+from models import state
+from models.review import Review
+from models.place import Place
+from models.city import City
+from models.amenity import Amenity
+from models.base_model import BaseModel
+from models.user import User
 import cmd
 import shlex
 from models.base_model import BaseModel
 from models.user import User
 classes = {
+    "Amenity": Amenity,
     "BaseModel": BaseModel,
+    "City": City,
+    "Place": Place,
+    "Review": Review,
+    "State": state,
     "User": User
 }
 
