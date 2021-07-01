@@ -4,17 +4,18 @@
   <br>AirBnB_clone ✈️ <br>
 </h1>
 
-| 🥴 ** Menu ** 👉                                                                                                                                           |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 🔍[Description](https://github.com/dontstopmeowing/AirBnB_clone#description- "Description]") - Description. 🔍                                             |
-| 📃 [Functionalities](https://github.com/dontstopmeowing/AirBnB_clone#functionalities-of-this-command-interpreter "Functionalities]") - Functionalities. 📃 |
-| 📢 [Environment](https://github.com/dontstopmeowing/AirBnB_clone#Environment- "Environment]") - Environment. 📢                                            |
-| 🐺 [File descriptor](https://github.com/dontstopmeowing/AirBnB_clone#file-descriptor- "file descriptor]") - File descriptor. 🐺                            |
-| 🐔 [Flow chart](https://github.com/dontstopmeowing/AirBnB_clone#flowchart- "Flow chart]") - Flow chart. 🐔                                                 |
-| 🔨 [Installation](https://github.com/dontstopmeowing/AirBnB_clone#installation- "Installation]") - Installation. 🔨                                        |
-| ✨ [Examples](https://github.com/dontstopmeowing/AirBnB_clone#examples- "Examples]") - Examples. ✨                                                        |
-| 🐭 [Bugs](https://github.com/dontstopmeowing/AirBnB_clone#bugs- "#bugs-]") - Known bugs. 🐭                                                                |
-|                                                                                                                                                            |
+| 🥴 ** Menu ** 👉                                                                                                                                                      |
+| --------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 🔍[Description](https://github.com/dontstopmeowing/AirBnB_clone#description- "Description]") - Description. 🔍                                                        |
+| 📃 [Functionalities](https://github.com/dontstopmeowing/AirBnB_clone#functionalities-of-this-command-interpreter "Functionalities]") - Functionalities. 📃            |
+| 📢 [Environment](https://github.com/dontstopmeowing/AirBnB_clone#Environment- "Environment]") - Environment. 📢                                                       |
+| 🐺 [File descriptor](https://github.com/dontstopmeowing/AirBnB_clone#file-descriptor- "file descriptor]") - File descriptor. 🐺                                       |
+| 🐔 [Flow chart](https://github.com/dontstopmeowing/AirBnB_clone#flowchart- "Flow chart]") - Flow chart. 🐔                                                            |
+| 🔨 [Installation](https://github.com/dontstopmeowing/AirBnB_clone#installation- "Installation]") - Installation. 🔨                                                   |
+| ✨ [Examples](https://github.com/dontstopmeowing/AirBnB_clone#examples- "Examples]") - Examples. ✨                                                                   |
+| 🐭 [Bugs](https://github.com/dontstopmeowing/AirBnB_clone#bugs- "#bugs-]") - Known bugs. 🐭                                                                           |
+| 📋 [Disclaimer & Credits](https://github.com/dontstopmeowing/AirBnB_clone/blob/main/README.md#disclaimer--credits- "Disclaimer & Credits]") - Disclaimer & Credits 📋 |
+|                                                                                                                                                                       |
 
 ---
 
@@ -50,7 +51,6 @@ This project was interpreted and tested on Ubuntu 20.04 LTS using python3 (versi
 | `review.py`       | [review.py](https://github.com/dontstopmeowing/AirBnB_clone/blob/main/models/review.py "review.py]") - Class that inherites from Base Model.                                                                    |
 | `user.py`         | [user.py](https://github.com/dontstopmeowing/AirBnB_clone/blob/main/models/user.py "user.py]") - Class that inherites from Base Model.                                                                          |
 | `console.py`      | [console.py](https://github.com/dontstopmeowing/AirBnB_clone/blob/main/console.py "console.py]") - Contains the entry point of the command interpreter.                                                         |
-| `file.json`       | [file.json](https://github.com/dontstopmeowing/AirBnB_clone/blob/main/file.json "file.json]") - Contains all the data stored by the program.                                                                    |
 |                   |
 
 [🔼](https://github.com/dontstopmeowing/AirBnB_clone#------airbnb_clone-%EF%B8%8F- "Back to the top") - [Back to the top](https://github.com/dontstopmeowing/AirBnB_clone#------airbnb_clone-%EF%B8%8F- "Back to the top]") - Go back to the top. [🔼](https://github.com/dontstopmeowing/AirBnB_clone#------airbnb_clone-%EF%B8%8F- "Back to the top")
