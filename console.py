@@ -28,6 +28,35 @@ class HBNBCommand(cmd.Cmd):
     """ HBNH console """
     prompt = '(hbnb) '
 
+    def default(self, args):
+        """ Default methods """
+
+        methods = ["all", "show", "destroy", "update", "count"]
+        className = args.split(".", 1)
+        if len(className) < 2:
+            print("** Unknown syntax:", args)
+            return
+        if className[0] not in classes:
+            print("** class doesn't exist **")
+            return
+        MethodName = className[1].split("(", 1)
+        if MethodName[0] not in methods or len(MethodName) < 2:
+            print("** Unknown syntax:", args)
+            return
+        MethodName[1] = MethodName[1].strip()
+        if len(MethodName[1]) < 1 or MethodName[1][-1] != ')':
+            print("** Unknown syntax:", args)
+            return
+        args = MethodName[1][:-1]
+        if MethodName[0] == "show":
+            return self.do_show(className[0] + " " + args)
+        elif MethodName[0] == "all":
+            return self.do_all(className[0])
+        elif MethodName[0] == "destroy":
+            return self.do_destroy(className[0] + " " + args)
+        elif MethodName[0] == "count":
+            return self.do_count(className[0])
+
     def do_author(self, args):
         """Program written by Carlos Galeano."""
 
@@ -61,6 +90,20 @@ class HBNBCommand(cmd.Cmd):
                 print("** class doesn't exist **")
         else:
             print("** class name missing **")
+
+    def do_count(self, args):
+        """Counts the number of created instances"""
+        args = args.split()
+
+        if len(args) < 1:
+            print("** class name missing **")
+            return
+        count = 0
+        objects = models.storage.all()
+        for key in objects:
+            if objects[key].__class__.__name__ == args[0]:
+                count += 1
+        print(count)
 
     def do_show(self, args):
         """
